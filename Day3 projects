@@ -1,0 +1,172 @@
+#ODD OR EVEN
+# num=int(input("Enter the Number"))
+# if num%2==0:
+#   print("The Number is even")
+# else:
+#   print("The Number is odd")
+# BMI 2.0
+# height= float(input("enter your height(m)"))
+# weight= float(input("enter your weight(kg)"))
+# BMI= (weight/(height*height))
+# print(f"Your BMI is {BMI}" )
+# if BMI<=18.5:
+#   print("You are underweight")
+# elif BMI<=25:
+#   print("You have a normal weight")
+# elif BMI<=30:
+#   print("You are overweight")
+# elif BMI<=35:
+#   print("You are obese")
+# else:
+#   print("You are Clinically Obese")
+#LEAP YEAR
+# year=int(input("enter year "))
+# if year%4==0 and year%400==0:
+#   print(f"{year} is a leap year")
+# elif year%4==0 and year%100==0:
+#   print(f"{year} is not a leap year")
+# elif year%100==0 and year%400==0:
+#   print(f"{year} is a leap year")
+# elif year%4==0 and (year%100!=0 or year%400!=0):
+#   print(f"{year} is a leap year")
+# else:
+#   print(f"{year} is not a leap year")
+# OR 
+# year=int(input("enter year "))
+# if year%4==0:
+#   if year%100==0:
+#     if year%400==0:
+#       print("leap year")
+#     else:
+#       print("not leap")
+# else:
+#   print("not leap")
+# ROLLERCOASTER TICKET 
+# print("Welcome to the rollercoaster!")
+# height=int(input("What is your height in cm? "))
+# if height>=120:
+#   print("you can ride the rollercoaster")
+#   age= int(input("What is your age? "))
+#   if age>=18 and age<45:
+#     bill=100
+#     print("Adult tickets cost 100")
+#   elif age>=12 and age<18:
+#     bill=50
+#     print("Youth Tickets cost 50")
+#   elif age>=45 or age<=55:
+#     bill=0
+#     print("Your ticket is free")
+#   else :
+#     bill=25
+#     print("Child ticket costs 25")
+#   photo=input("Do you want a photo? Y or N ")
+#   if photo== "Y":
+# add 25 to their bill
+#     total_bill= bill+25
+#     print(f"your total bill is {total_bill}")
+# else:
+#   print("Sorry you have to grow taller before you can ride!")
+# PIZZA ORDER
+# size=input("What size pizza do you want? S,M,or L ? ")
+# paneer=input("do you wish to add paneer? Y or N ")
+# cheese=input("do you wish to add extra cheese? Y or N ")
+# if size=="S":
+#   bill=25
+#   print("Cost for a small pizza is 25")
+# elif size=="M":
+#   bill=50
+#   print("Cost for a medium pizza is 50")
+# elif size=="L":
+#   bill=100
+#   print("cost for a large pizza is 100")  
+# if (size== "M" or size== "L") and paneer=="Y":
+#   bill+=10
+#   print("Cost of adding paneer is 10")
+# elif size== "S" and paneer== "Y":
+#   bill+=5
+#   print("cost of adding paneer is 5")
+# # else:
+# #   print(f"Your current bill is {bill} ")
+# if cheese== "Y":
+#   bill+=5
+#   print("Cost of adding extra cheese is 5")
+#   print(f"Your total bill is {bill}")
+# else:
+#   print(f"Your total bill is {bill}")
+# OR 
+# size=input("What size pizza do you want? S,M,or L ? ")
+# paneer=input("do you wish to add paneer? Y or N ")
+# cheese=input("do you wish to add extra cheese? Y or N ")
+# bill=0
+# if size=="S":
+#   bill+=25
+# elif size=="M":
+#   bill+=50
+# elif size=="L":
+#   bill+=100
+# if paneer=="Y":
+#   if size=="S":
+#     bill+=5
+#   else: 
+#     bill+=10
+# if cheese=="Y":
+#   bill+=5
+# print(f"Your total bill is {bill}") 
+#LOVE CALCULATOR
+# namea= input("enter your name ")
+# nameb= input("enter their name ")
+# name1=namea.lower()
+# name2=nameb.lower()
+# name=name1+name2
+# T=name.count("t")
+# print(f"T-{T}")
+# R=name.count("r")
+# print(f"R-{R}")
+# U=name.count("u")
+# print(f"U-{U}")
+# E=name.count("e")
+# print(f"E-{E}")
+# L=name.count("l")
+# print(f"L-{L}")
+# O=name.count("o")
+# print(f"O-{O}")
+# V=name.count("v")
+# print(f"V-{V}")
+# E=name.count("e")
+# print(f"E-{E}")
+# TRUE=T+R+U+E
+# print(f"Number of times the letters of word TRUE occurs- {TRUE}")
+# LOVE=L+O+V+E
+# print(f"Number of times the letters of word LOVE occurs- {LOVE} ")
+# print(f"Combining these numbers: {TRUE}{LOVE}")
+# T=str(TRUE)
+# L=str(LOVE)
+# c= T+L
+# count=int(c)
+# if count<10 or count>90:
+#   print(f"your score is {count}, you go together like coke and mentos")
+# elif count>40 and count<50:
+#   print(f"your score is {count} and you are alright")
+# else:
+#   print(f" your score is {count}")
+#TREASURE HUNT
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
